@@ -1,7 +1,7 @@
 {
   "name": "playwright-qc-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "QC Automation Portfolio using Playwright with POM pattern",
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
@@ -9,15 +9,17 @@
     "test:ui": "npx playwright test --ui",
     "test:debug": "npx playwright test --debug",
     "test:smoke": "npx playwright test --grep @smoke",
-    "test:report": "npx playwright show-report"
+    "test:report": "npx playwright show-report",
+    "test:allure": "npx playwright test && npx allure generate allure-results --clean && npx allure open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tat Thanh Sang",
   "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
     "@types/node": "^25.7.0",
+    "allure-commandline": "^2.40.0",
+    "allure-playwright": "^3.8.0",
     "dotenv": "^17.4.2"
   }
 }

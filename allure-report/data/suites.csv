@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2655","TC001 - should login successfully with valid credentials","chromium","2026-05-13","passed","2026-05-13","Login","login.spec.ts","",""
+"","2512","TC003 - should show error with locked out user","chromium","2026-05-13","passed","2026-05-13","Login","login.spec.ts","",""
+"","2576","TC002 - should show error with wrong password","chromium","2026-05-13","passed","2026-05-13","Login","login.spec.ts","",""
